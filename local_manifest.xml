@@ -15,7 +15,7 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
         
         <!-- TMP -->
-        <remove-project name="kernel_xiaomi_ginkgo"  path="kernel/xiaomi/ginkgo"/>
+        <remove-project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo"/>
           
         <!-- qcom-sepolicy -->
         <remove-project name="android_device_qcom_sepolicy" />
