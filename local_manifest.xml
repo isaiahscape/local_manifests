@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
+        <remote name="github" fetch="https://github.com" />
         <remote name="gitlab" fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/fog" name="alternoegraha/device_xiaomi_fog" remote="github" revision="lineage-20-a" />
+        <project path="device/xiaomi/fog" name="bxsang/device_xiaomi_fog" remote="github" revision="lineage-20-a" />
         <project path="vendor/xiaomi/fog" name="dblenk-project/vendor_xiaomi_fog" remote="github" revision="lineage-20" />
         <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
           
@@ -13,9 +14,5 @@
 
         <!-- Clang -->  
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
-          
-        <!-- Track my own fork of frameworks/base -->
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="alternoegraha/android_frameworks_base" revision="lineage-20.0" remote="github" />
-          
+
 </manifest>
