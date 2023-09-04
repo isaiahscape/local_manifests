@@ -9,6 +9,10 @@
         <project path="vendor/xiaomi/fog" name="dblenk-project/vendor_xiaomi_fog" remote="github" revision="lineage-20" />
         <project path="kernel/xiaomi/fog" name="dblenk-project/kernel_xiaomi_fog_header" remote="github" revision="lineage-20" />
 
+        <!-- MiuiCamera -->
+        <project path="device/xiaomi/sm6225-common-miuicamera" name="CHRISL7/android_device_xiaomi_sm6225-common-miuicamera" remote="github" revision="topaz" />
+        <project path="vendor/xiaomi/sm6225-common-miuicamera" name="ThankYouMario/android_vendor_xiaomi_sm6225-commmon-miuicamera" remote="gitlab" revision="topaz" />
+
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
