@@ -1,2 +1,3 @@
 # local_manifest
-For Redmi 10C `(fog)` - Evolution X 
+For Poco X4 Pro / Redmi Note 11 Pro Plus 5G `(veux/peux)` - Any ROM
+Note: All tags we're got * for initialization.
