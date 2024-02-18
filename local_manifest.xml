@@ -3,6 +3,8 @@
           
         <remote name="gh" fetch="https://github.com" />
 
+          <remove-project name="prebuilts/clang/host/linux-x86" />
+          
         <!-- Sync trees -->
         <project path="device/xiaomi/veux" name="isaiahscape/device_xiaomi_veux" remote="gh" revision="dolby-oplus" />
 
