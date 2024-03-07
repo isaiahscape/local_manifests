@@ -2,8 +2,14 @@
 <manifest>
           
         <remote name="gh" fetch="https://github.com" />
+        <remote name="gitlab" fetch="https://gitlab.com" />
           
         <!-- Sync trees -->
-        <project path="device/xiaomi/veux" name="isaiahscape/device_xiaomi_veux" remote="gh" revision="awaken" />
+        <project remote="gh" name="isaiahscape/device_xiaomi_veux" revision="awaken" path="device/xiaomi/veux" />
+        <project remote="gh" name="dereference23/kernel_xiaomi_sm6375" revision="main" path="kernel/xiaomi/sm6375" />
+        <project remote="gitlab" name="isnowflakes/vendor_xiaomi_veux-firmware" revision="main" path="vendor/xiaomi/veux-firmware" />
+        <project remote="gitlab" name="isaiahscape/vendor_xiaomi_veux" revision="udc" path="vendor/xiaomi/veux" />
+        <project remote="gh" name="evolution-x/hardware_xiaomi" revision="udc" path="hardware/xiaomi" />
+        <project remote="gh" name="aswinop/vendor_xiaomi_veux-gcam" revision="main" path="vendor/xiaomi/veux-gcam" />
 
 </manifest>
