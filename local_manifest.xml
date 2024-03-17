@@ -3,8 +3,11 @@
           
         <remote name="gh" fetch="https://github.com" />
         <remote name="gl" fetch="https://gitlab.com" />
-          
-        <!-- Sync trees -->
+        <remote name="pe-gl" fetch="https://gitlab.pixelexperience.org/android/vendor-blobs" revision="fourteen" />
+        
+          <!-- Sync trees -->
+        <project remote="pe-gl" name="vendor_xiaomi_veux" path="vendor/xiaomi/veux" />
+        <project remote="pe-gl" name="vendor_xiaomi_miuicamera-veux" path="vendor/xiaomi/miuicamera-veux" />
         <project remote="gh" name="awakenosveux/device_xiaomi_veux" revision="fourteen" path="device/xiaomi/veux" />
         <project remote="gh" name="dereference23/kernel_xiaomi_sm6375" revision="main" path="kernel/xiaomi/sm6375" />
         <project remote="gl" name="aswinop/vendor_xiaomi_veux-firmware" revision="main" path="vendor/xiaomi/veux-firmware" />
